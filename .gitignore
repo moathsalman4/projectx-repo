@@ -1,0 +1,14 @@
+# Terraform local cache
+**/.terraform/
+**/.terraform.lock.hcl.backup
+
+# Terraform state (local)
+**/*.tfstate
+**/*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan files (optional but recommended)
+tfplan
+*.tfplan
+*.plan
