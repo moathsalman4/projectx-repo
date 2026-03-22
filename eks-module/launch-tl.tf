@@ -29,6 +29,7 @@ spec:
     config:
       clusterDNS:
         - 172.20.0.10
+      maxPods: 110
     flags:
       - --node-labels=node.kubernetes.io/lifecycle=normal
   EOT
